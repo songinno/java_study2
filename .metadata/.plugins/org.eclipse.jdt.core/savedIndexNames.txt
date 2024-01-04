@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\zz.Study\java_dailycoding\.metadata\.plugins\org.eclipse.jdt.core
+2380175872.index
+3850116494.index
+2828898236.index
+1865797976.index
