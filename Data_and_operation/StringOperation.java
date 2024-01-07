@@ -6,7 +6,6 @@ public class StringOperation {
 		
 		System.out.println("Hello, leezche ... bye.".replace("leezche", "egoing"));
 		
-
 	}
 
 }
