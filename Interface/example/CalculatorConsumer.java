@@ -11,7 +11,6 @@ public class CalculatorConsumer {
 		System.out.println(avgResult);
 		
 		System.out.println(Calculatable.a);
-		
 
 	}
 
