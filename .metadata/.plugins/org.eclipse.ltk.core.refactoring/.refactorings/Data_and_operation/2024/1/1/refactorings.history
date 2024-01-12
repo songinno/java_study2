@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;DataType.java&apos; to &apos;Datatype.java&apos;&#x0D;&#x0A;- Original project: &apos;Data_and_operation&apos;&#x0D;&#x0A;- Original element: &apos;DataType.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Datatype.java&apos;" description="Rename compilation unit &apos;DataType.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/&lt;{DataType.java" name="Datatype.java" references="false" stamp="1704341072644" version="1.0"/>
-</session>
