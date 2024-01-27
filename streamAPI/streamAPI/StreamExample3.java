@@ -1,7 +1,11 @@
 package streamAPI;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.OptionalInt;
+import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -60,6 +64,31 @@ public class StreamExample3 {
 		
 		System.out.println(stream9.sum());
 		System.out.println(stream10.average().getAsDouble());
+		System.out.println();
+		
+		/* 요소의 수집 */
+		// Collectors.toList() : 스트림 -> List로 변환
+		Stream<String> stream11 = Stream.of("넷", "둘", "하나", "셋");
+		
+		List<String> list = stream11.collect(Collectors.toList());
+		Iterator<String> iter = list.iterator();
+		while(iter.hasNext()) {
+			System.out.print(iter.next() + " ");
+		}
+		System.out.println();
+		
+		// Collectors.partitioningBy()
+		Stream<String> stream12 = Stream.of("HTML", "CSS", "JAVA", "PHP");
+		Map<Boolean, List<String>> partition 
+			= stream12.collect(Collectors
+					.partitioningBy(s -> (s.length() % 2) == 0));
+		// 글자 수가 홀수인 요소
+		List<String> oddLengthList = partition.get(false);
+		System.out.println(oddLengthList);
+		// 글자 수가 짝수인 요소
+		List<String> evenLengthList = partition.get(true);
+		System.out.println(evenLengthList);
+		
 		
 	}
 
