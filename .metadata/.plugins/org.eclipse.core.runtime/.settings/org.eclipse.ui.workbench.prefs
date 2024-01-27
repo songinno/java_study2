@@ -15,6 +15,7 @@ org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Courier New|12.0|0|WINDOWS|1|
 org.eclipse.jdt.ui.editors.textfont=1|Courier New|12.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.jface.textfont=1|Courier New|12.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Courier New|12.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 org.eclipse.ui.ide.systemDefault.CONFLICTING_COLOR=240,15,66
 org.eclipse.ui.ide.systemDefault.CONTENT_ASSIST_BACKGROUND_COLOR=52,57,61
 org.eclipse.ui.ide.systemDefault.CONTENT_ASSIST_FOREGROUND_COLOR=238,238,238

@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
+/*  중개 연산  */
 public class StreamExample2 {
 	public static void main(String[] args) {
 		/* 중개 연산(Intermediate Operation) */

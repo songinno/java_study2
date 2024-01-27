@@ -6,6 +6,8 @@ import java.util.Random;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/*  스트림 생성  */
+
 public class StreamExample1 {
 
 	public static void main(String[] args) {
@@ -31,6 +33,11 @@ public class StreamExample1 {
 		// 배열의 특정 부분만을 이용한 스트림 생성
 		Stream<String> arrStream2 = Arrays.stream(arr, 1, 3);
 		arrStream2.forEach(e -> System.out.println(e));
+		System.out.println();
+		
+		// 가변 매개변수
+		Stream<Double> varStream = Stream.of(4.2, 2.5, 3.1, 1.9);
+		varStream.forEach(System.out::println);
 		System.out.println();
 		
 		// 지정된 범위의 연속된 정수
